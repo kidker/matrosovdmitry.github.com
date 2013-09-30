@@ -1,19 +1,19 @@
 define([
-    "jquery", "backbone", "app/namespace", "jquery-scrollTo", "bootstrap",
-    "text!templates/mainTpls/Index.html"//Template
+    "jquery", "backbone", "app/namespace", "jquery-scrollTo", "bootstrap", "vk-widget",
+    "text!templates/mainTpls/Lenta.html"//Template
 
 ],
-    function ($, Backbone, jquery_scrollTo, bootstrap, namespace, template) {
+    function ($, Backbone, jquery_scrollTo, bootstrap, namespace, vk_widget, template) {
         var IndexView = Backbone.View.extend({
 
             tagName : "div",
             events : {
-                "click #navbar-main .navbar-nav a" : "_initScrollToChangeMenu"
+                //"click #navbar-main .navbar-nav a" : "_initScrollToChangeMenu"
             },
             initialize: function () {
                 _.bindAll(this);
                 //Инциализация заменены меню
-                this._initChangeMenu();
+                //this._initChangeMenu();
 
             },
             _initScrollSpy: function(){
@@ -76,7 +76,7 @@ define([
                 this.$el.empty().append( template );
 
                 //После рендера шаблона подрубаем ScrollSpy
-                this._initScrollSpy();
+//                this._initScrollSpy();
 
 
                 return this;

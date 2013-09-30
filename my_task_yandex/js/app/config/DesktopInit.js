@@ -13,6 +13,7 @@ require.config({
         // --------------
         "jquery": "libs/jquery",
         "jquery-scrollTo" : "libs/jquery-scrollTo",
+        "vk-widget" : "//vk.com/js/api/openapi.js?101",
         //"jqueryUI" : "libs/jquery-ui",
         //Bootstrap scripts
         //"bootstrap-datepicker" : "libs/bootstrap-datepicker",

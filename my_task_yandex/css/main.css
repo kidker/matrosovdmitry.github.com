@@ -228,4 +228,16 @@ code {
     width: 100%;
     text-align: center;
 }
+.twitter-twits{
+
+    display: inline-block;
+    vertical-align: top;
+    width: 520px;
+}
+.vk-group{
+
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 25px;
+}
 
