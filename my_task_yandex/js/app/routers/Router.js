@@ -95,7 +95,8 @@ define([
             },
             index: function () {
                 console.log("index");
-                this.showContent({ view : this.views.mainIndex.render() });
+                var newView = new IndexView;
+                this.showContent({ view : newView.render() });
                 this._activateTab('index');
             },
             users : function(){
