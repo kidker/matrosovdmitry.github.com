@@ -1,8 +1,11 @@
-define(["jquery", "backbone", "app/namespace", "models/User"],
+define(["jquery", "backbone", "app/namespace", "models/User", "localstorage"],
 
-    function ($, Backbone, namespace, User) {
+    function ($, Backbone, namespace, User, localstorage) {
 
         var UsersCollection = Backbone.Collection.extend({
+
+            localStorage: new Backbone.LocalStorage("UsersCollection"),
+
             cat_id : null,
             model: User,
             totalCount: null,
@@ -13,7 +16,7 @@ define(["jquery", "backbone", "app/namespace", "models/User"],
 
             autoload: true,
 
-            url :  'http://localhost/backbone/backbone_video_kurs/server/users/getUsers.php',
+            //url :  'http://localhost/backbone/backbone_video_kurs/server/users/getUsers.php',
 
             initialize: function (options) {
 
@@ -79,6 +82,9 @@ define(["jquery", "backbone", "app/namespace", "models/User"],
                     name      : sel.find("#Name").val(),
                     sername   : sel.find("#Sername").val(),
                     age       : sel.find("#Age").val(),
+                    small_img : sel.find("#SmallImg").val(),
+                    big_img   : sel.find("#BigImg").val(),
+                    description : sel.find("#description").val(),
                     id        : id
 
 
@@ -106,6 +112,9 @@ define(["jquery", "backbone", "app/namespace", "models/User"],
             _saveModel : function(m){
                 var selfModel = m;
 
+                m.save();
+                selfModel.trigger("saveModel");
+                /*
                 m.save(null,{
                     success : function(model, response){
                         if (response.ans == 1){
@@ -119,17 +128,27 @@ define(["jquery", "backbone", "app/namespace", "models/User"],
                         alert("Попробуйте в другой раз!");
                     }
                 });
+                */
 
             },
 
             //Создание матча
             _createUser : function(data){
-
+                var self = this;
                 console.log("CREATE USER");
                 console.log(data);
                 //Создаём модель и посылаем через CRUD данные на сервер
-                var self = this;
 
+                //this.create(data);
+                this.create(data, {
+                    wait : true,
+                    success : function(response, model){
+                            self.trigger('addUser', model);
+                    }
+                });
+                //this.trigger('addUser', data);
+
+                /*
                 this.create(data, {
                     wait : true,
 
@@ -154,11 +173,14 @@ define(["jquery", "backbone", "app/namespace", "models/User"],
 
                     },
 
+
                     error :  function(err){
                         //1. Вывести ошибку
                         console.log("err");
                     }
+
                 });
+                 */
 
             },
             //Фильтрования по хозяевам и гостям

@@ -150,3 +150,53 @@ code {
     margin: 100px 0px 0px;
     text-align: center;
 }
+
+.user-item{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    margin: 0 20px 20px 0;
+    text-align: center;
+
+}
+.user-item__img {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    vertical-align: top;
+}
+.user-item__name{
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 5px;
+    font-size: 12px;
+
+}
+.user-item__edit{
+    width: 140px;
+    margin-top: 5px;
+    height: 36px;
+    text-align: left;
+}
+
+.user_profile .user_big-image{
+    display: inline-block;
+    vertical-align: top;
+    width: 365px;
+    height: 365px;
+
+}
+.user_profile__info{
+    display: inline-block;
+    vertical-align: top;
+    width: 500px;
+    height: auto;
+    margin-left: 20px;
+}
+.user_profile{
+    margin-top: 50px;
+}
+

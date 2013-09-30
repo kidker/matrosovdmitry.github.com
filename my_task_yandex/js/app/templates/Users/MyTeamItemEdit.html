@@ -1,0 +1,22 @@
+<li class="team" style="width: 95%; z-index: 2;" tid="<%= team_id %>" team_id="<%= id %>" id="my_team<%= team_id %>">
+
+    <div class="pers_photo"><img height="50" src="<% if (logo != ''){ %>/uploads/teams/mini/<%= logo %><% }else{ %>/images/no_photo_pic.gif<% } %>" alt=""></div>
+    <div class="pers_info" style="width: 280px;" title="<%= title %>"><%= title %>
+        [
+        <% if (status_type == 0){ %>основная<% } %>
+        <% if (status_type == 1){ %>молодёжная<% } %>
+        <% if (status_type == 2){ %>дубль<% } %>
+        <% if (status_type == 3){ %>детская-<%=y_players%><% } %>
+        <% if (status_type == 4){ %>2<% } %>
+        <% if (status_type == 5){ %>межрегиональная<% } %>
+        ]
+
+        (<%= name %>)</div>
+
+    <div class="actions">
+        <a title="заявка"  href="#modalApplicTeam" class="but_applic "></a>
+        <a title="редактировать"  href="#modalCreateTeam" class="but_edit"></a>
+        <a title="удалить" href="#"  class="but_del"></a>
+    </div>
+
+</li>

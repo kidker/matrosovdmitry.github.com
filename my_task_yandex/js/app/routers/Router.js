@@ -106,7 +106,7 @@ define([
             user : function(id){
                 console.log("user");
                 var newView = new UserView;
-                this.showContent({ view : newView.render() });
+                this.showContent({ view : newView.render({user_id: id}) });
             },
             lections : function(){
                 console.log("lections");

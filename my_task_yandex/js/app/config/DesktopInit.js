@@ -32,6 +32,7 @@ require.config({
         "underscore": "libs/lodash",
 
         "backbone": "libs/backbone",
+        "localstorage" : "libs/backbone-localstorage",
 
         "text": "libs/plugins/text",
 
@@ -63,6 +64,10 @@ require.config({
             // Exports the global window.Backbone object
             "exports": "Backbone"
 
+        },
+        'localstorage': {
+            deps: ['backbone'],
+            exports: 'Backbone'
         },
         'autocomplete': {
             deps: ['jquery']

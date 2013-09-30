@@ -5,7 +5,7 @@ define(["jquery", "backbone"],
         // Creates a new Backbone Model class object
         var User = Backbone.Model.extend({
             // urlRoot : "/user/delete_action_type",
-
+            /*
             sync: function(method, model, options) {
                 options || (options = {});
 
@@ -37,7 +37,7 @@ define(["jquery", "backbone"],
                 if (options.url)
                     Backbone.sync.call(model, method, model, options);
             },
-
+*/
 
             id : null,
             // Model Constructor

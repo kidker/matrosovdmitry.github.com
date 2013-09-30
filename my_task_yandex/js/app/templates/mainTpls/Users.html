@@ -1,11 +1,26 @@
-﻿<div class="col-md-12 my-custom-wells" >
-<div class="well">
-    <h1>Список участников</h1>
+﻿<div id="modalEditUser" class="modal fade modalEditUser"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
 </div>
+<!-- End-Modal -->
+<div class="col-md-12 my-custom-wells" >
+    <div>
+        <ol class="breadcrumb">
+            <li><a href="#!/index">О ШРИ</a></li>
+            <li class="active">Список участников</li>
+        </ol>
+    </div>
+    <div class="well">
+        <h1>Список участников</h1>
+    </div>
 
         <div class="well">
-            <h2>Участники</h2>
+            <h2 >Участники</h2>&nbsp;<button type="button" style="display: inline-block;" data-toggle="modal" href="#modalEditUser" class="btn btn-success add_user"><b class="glyphicon glyphicon-plus"></b> Добавить участника</button>
+            <div style="margin-top:20px;"></div>
+            <div class="well">
+                <div class='users_list'>
 
+                </div>
+            </div>
         </div>
        <div style="margin-top:100px;"></div>
         <script src="//yandex.st/share/cnt.share.js"></script>

@@ -1,11 +1,12 @@
 // View.js
 // -------
-define(["jquery", "backbone", "app/namespace", "models/User", "text!templates/UserItem.html"],
+define(["backbone", "app/namespace", "models/User",  "text!templates/UserItem.html"],
 
-    function ($, Backbone, namespace, Model, template) {
+    function (Backbone, namespace, Model, template) {
 
         var UserItem = Backbone.View.extend({
-            tagName: "tr",
+            tagName: "li",
+            className : "user-item thumbnail",
             //className: "container",
             imgloaded: false,
             randSportTypes : false,
@@ -28,7 +29,8 @@ define(["jquery", "backbone", "app/namespace", "models/User", "text!templates/Us
                  */
 
                 "click .edit_user" : "_editUser",
-                "click .delete_user" : "_deleteUser"
+                "click .delete_user" : "_deleteUser"//,
+                //"click .profile" : "_openProfile"
 
 
             },
@@ -42,6 +44,13 @@ define(["jquery", "backbone", "app/namespace", "models/User", "text!templates/Us
                 this.listenTo(this.model, "saveModel", this.render);
 
                 return this;
+            },
+            _openProfile : function(e){
+                console.log("_openProfile");
+                e.preventDefault();
+                //var collect = localstorage;
+                //console.log(collect.getItem("5951d2b6-627c-7a34-4dcb-e4b47ed2397e"));
+               // namespace.app.user(this.model);
             },
             _editUser : function(e){
                 e.stopPropagation();

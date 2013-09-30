@@ -3,15 +3,15 @@ define(["jquery", "backbone", "views/Users/UserItem"],
         var UsersList = Backbone.View.extend({
 
             id: "my_users",
-            //className : "",
-            tagName : "tbody",
+            //className : "user-item",
+            tagName : "ul",
             loading: false,
             fetched: false,
             initialize: function () {
                 console.log("->views/Users/UsersList.js");
                 _.bindAll(this);
 
-                $(window).bind("scroll", this.scroll); //scroll infinity
+                //$(window).bind("scroll", this.scroll); //scroll infinity
 
                 //this.collection.on("add", this.renderNewPhoto, this);
                 this.collection.on("addUser", this.renderNewPhoto, this);
@@ -35,13 +35,13 @@ define(["jquery", "backbone", "views/Users/UserItem"],
                     });
                 } else {
                     //console.log(self.collection);
-                    /*
+
                     self.collection.each(function (model) {
                         self.renderNewPhoto(model);
                     });
-                    */
 
-                    self._renderFirstFixedSizeElems(self.collection);
+
+                    //self._renderFirstFixedSizeElems(self.collection);
                 }
 
                 return this;
