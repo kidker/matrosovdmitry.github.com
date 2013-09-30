@@ -12,10 +12,13 @@ define([
             },
             initialize: function () {
                 _.bindAll(this);
+
+                $(window).off("scroll");
                 //Инциализация заменены меню
                 this._initChangeMenu();
 
             },
+
             _initScrollSpy: function(){
 
                 // Cache selectors

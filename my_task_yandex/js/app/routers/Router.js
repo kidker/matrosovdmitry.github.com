@@ -7,7 +7,15 @@ define([
     //Views
     "views/Content",
     //Main Views
-    "views/pagesView/Index"
+    "views/pagesView/Index",
+
+    "views/pagesView/Users",
+    "views/pagesView/User",
+
+    "views/pagesView/Lections",
+    "views/pagesView/Lection",
+
+    "views/pagesView/Lenta"
     /*
     "views/pagesView/Action",
     "views/pagesView/Index",
@@ -23,7 +31,7 @@ define([
 ],
 
     function ($, Backbone, namespace, Content,
-              IndexView
+              IndexView, UsersView, UserView, LectionsView, LectionView, LentaView
              /* ActionView, IndexView, AmpluaView, MyPersonsView, PersonalInfoView, StadiumsView, MyTournamentsView, MyMatchView, MyTeamView*/
         ) {
 
@@ -32,8 +40,19 @@ define([
             views: {},
 
             routes: {
+                //Pages for main
                 "": "index",
-                "!/index" : "index"
+                "!/index" : "index",
+                //Pages for users
+                "!/users" : "users",
+                "!/user/:id" : "user",
+                //Pages for lections
+                "!/lections" : "lections",
+                "!/lection/:id" : "lection",
+                //Page for lenta
+                "!/lenta" : "lenta"
+
+
                 /*
                 "!/my_matches/:id" : "my_matches",
                 "!/my_teams/:id" : "my_teams",
@@ -76,6 +95,39 @@ define([
             index: function () {
                 console.log("index");
                 this.showContent({ view : this.views.mainIndex.render() });
+                this._activateTab('index');
+            },
+            users : function(){
+                console.log("users");
+                var newView = new UsersView;
+                this.showContent({ view : newView.render() });
+                this._activateTab('users');
+            },
+            user : function(id){
+                console.log("user");
+                var newView = new UserView;
+                this.showContent({ view : newView.render() });
+            },
+            lections : function(){
+                console.log("lections");
+                var newView = new LectionsView;
+                this.showContent({ view : newView.render() });
+                this._activateTab('lections');
+            },
+            lection : function(id){
+                console.log("lection");
+                var newView = new LectionView;
+                this.showContent({ view : newView.render() });
+            },
+            lenta : function(){
+                console.log("lenta");
+                var newView = new LentaView;
+                this.showContent({ view : newView.render() });
+                this._activateTab("lenta");
+            },
+
+            _activateTab : function(name){
+                $(".basic-navebar .navbar-nav").find("li.active").removeClass("active").end().find("a[href='#!/"+name+"']").parent().addClass("active");
             },
             /*
             action_types : function(){
