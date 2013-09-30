@@ -7,10 +7,10 @@
     <file path="/a.dummy" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380571819038" ignored="false" />
     <file path="/index.html" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380544424711" ignored="false" />
     <file path="/Index.html" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380549737869" ignored="false" />
-    <file path="/Router.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380573248308" ignored="false" />
+    <file path="/Router.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380577868870" ignored="false" />
     <file path="/main.css" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380576919496" ignored="false" />
     <file path="/Index.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380567729547" ignored="false" />
-    <file path="/DesktopInit.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380576670549" ignored="false" />
+    <file path="/DesktopInit.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380577023483" ignored="false" />
     <file path="/Users.html" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380574288739" ignored="false" />
     <file path="/Users.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380565275963" ignored="false" />
     <file path="/.htaccess" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380548036244" ignored="false" />
@@ -31,8 +31,8 @@
     <file path="/Lection.html" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380574745111" ignored="false" />
     <file path="/Lection.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380573218518" ignored="false" />
     <file path="/LectionProfile.html" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380575558478" ignored="false" />
-    <file path="/Lenta.html" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380576208252" ignored="false" />
-    <file path="/Lenta.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380576697921" ignored="false" />
+    <file path="/Lenta.html" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380579332988" ignored="false" />
+    <file path="/Lenta.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380578050085" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     <favorites_list name="my_task_yandex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.70205706">
+    <splitter split-orientation="horizontal" split-proportion="0.8613139">
       <split-first>
         <leaf>
           <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
@@ -75,7 +75,7 @@
           <file leaf-file-name="Router.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/app/routers/Router.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="119" column="71" selection-start="3891" selection-end="3891" vertical-scroll-proportion="-15.12">
+                <state line="124" column="31" selection-start="4080" selection-end="4080" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -98,7 +98,7 @@
           <file leaf-file-name="Lenta.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/app/views/pagesView/Lenta.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="69" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+                <state line="8" column="28" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="e#649#2216#0" expanded="false" />
                     <element signature="e#2267#2546#0" expanded="false" />
@@ -108,13 +108,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Lenta.html" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Lenta.html" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Lenta.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="25" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.5296736">
+                <state line="14" column="29" selection-start="383" selection-end="383" vertical-scroll-proportion="0.34244603">
                   <folding>
-                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+                    <element signature="e#13026#13113#2" expanded="true" />
+                    <element signature="n#style#0;n#iframe#0;n#span#0;n#div#2;n#div#1;n#div#1;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -123,12 +125,12 @@
           <file leaf-file-name="DesktopInit.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/app/config/DesktopInit.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="9" selection-start="491" selection-end="500" vertical-scroll-proportion="0.0">
+                <state line="15" column="10" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
-                    <element signature="e#2472#4670#0" expanded="false" />
-                    <element signature="e#4745#6210#0" expanded="false" />
-                    <element signature="e#6266#7389#0" expanded="false" />
+                    <element signature="e#2523#4721#0" expanded="false" />
+                    <element signature="e#4796#6261#0" expanded="false" />
+                    <element signature="e#6317#7440#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -137,7 +139,7 @@
           <file leaf-file-name="Lections.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Lections.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="72" column="93" selection-start="4226" selection-end="4226" vertical-scroll-proportion="-18.73077">
+                <state line="10" column="10" selection-start="208" selection-end="371" vertical-scroll-proportion="-6.5384617">
                   <folding>
                     <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
@@ -175,7 +177,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="230" column="15" selection-start="4214" selection-end="4214" vertical-scroll-proportion="0.6463246">
@@ -203,15 +205,15 @@
         <option value="$PROJECT_DIR$/js/app/collections/LectionsCollection.js" />
         <option value="$PROJECT_DIR$/js/app/templates/LectionItem.html" />
         <option value="$PROJECT_DIR$/js/app/views/pagesView/Lection.js" />
-        <option value="$PROJECT_DIR$/js/app/routers/Router.js" />
         <option value="$PROJECT_DIR$/js/app/templates/mainTpls/Lections.html" />
         <option value="$PROJECT_DIR$/js/app/templates/mainTpls/Users.html" />
         <option value="$PROJECT_DIR$/js/app/templates/mainTpls/Lection.html" />
         <option value="$PROJECT_DIR$/js/app/templates/LectionProfile.html" />
-        <option value="$PROJECT_DIR$/js/app/config/DesktopInit.js" />
-        <option value="$PROJECT_DIR$/js/app/views/pagesView/Lenta.js" />
-        <option value="$PROJECT_DIR$/js/app/templates/mainTpls/Lenta.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/app/routers/Router.js" />
+        <option value="$PROJECT_DIR$/js/app/views/pagesView/Lenta.js" />
+        <option value="$PROJECT_DIR$/js/app/config/DesktopInit.js" />
+        <option value="$PROJECT_DIR$/js/app/templates/mainTpls/Lenta.html" />
       </list>
     </option>
   </component>
@@ -846,30 +848,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/routers/Router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="71" selection-start="3891" selection-end="3891" vertical-scroll-proportion="-15.12">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/app/templates/UserItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="90" selection-start="241" selection-end="443" vertical-scroll-proportion="-7.1923075">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Lections.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="93" selection-start="4226" selection-end="4226" vertical-scroll-proportion="-18.73077">
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -890,26 +872,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/config/DesktopInit.js">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="491" selection-end="500" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#2472#4670#0" expanded="false" />
-            <element signature="e#4745#6210#0" expanded="false" />
-            <element signature="e#6266#7389#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/views/pagesView/Lenta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="69" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#649#2216#0" expanded="false" />
-            <element signature="e#2267#2546#0" expanded="false" />
-            <element signature="e#2588#2657#0" expanded="false" />
-          </folding>
+        <state line="217" column="21" selection-start="4031" selection-end="4031" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -926,20 +892,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Lenta.html">
+    <entry file="file://$PROJECT_DIR$/js/app/config/DesktopInit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="25" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.5296736">
+        <state line="15" column="10" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2523#4721#0" expanded="false" />
+            <element signature="e#4796#6261#0" expanded="false" />
+            <element signature="e#6317#7440#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Lections.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="15" selection-start="4214" selection-end="4214" vertical-scroll-proportion="0.6463246">
-          <folding />
+        <state line="10" column="10" selection-start="208" selection-end="371" vertical-scroll-proportion="-6.5384617">
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/routers/Router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="31" selection-start="4080" selection-end="4080" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/views/pagesView/Lenta.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#649#2216#0" expanded="false" />
+            <element signature="e#2267#2546#0" expanded="false" />
+            <element signature="e#2588#2657#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Lenta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="383" selection-end="383" vertical-scroll-proportion="0.34244603">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#13026#13113#2" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#span#0;n#div#2;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

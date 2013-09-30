@@ -3,7 +3,7 @@ define([
     "text!templates/mainTpls/Lenta.html"//Template
 
 ],
-    function ($, Backbone, jquery_scrollTo, bootstrap, namespace, vk_widget, template) {
+    function ($, Backbone, jquery_scrollTo, bootstrap, namespace, vk_widget ,template) {
         var IndexView = Backbone.View.extend({
 
             tagName : "div",

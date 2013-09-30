@@ -73,7 +73,8 @@ define([
                 this.contentView = new Content();
 
                 this.views = {
-                    mainIndex : new IndexView
+                    mainIndex : new IndexView,
+                    mainLenta: new LentaView
                     /*
                     mainAction : new ActionView,
                     mainAmplua : new AmpluaView,
@@ -107,6 +108,7 @@ define([
                 console.log("user");
                 var newView = new UserView;
                 this.showContent({ view : newView.render({user_id: id}) });
+                this._activateTab('users');
             },
             lections : function(){
                 console.log("lections");
@@ -118,11 +120,12 @@ define([
                 console.log("lection");
                 var newView = new LectionView;
                 this.showContent({ view : newView.render({user_id : id}) });
+                this._activateTab('lections');
             },
             lenta : function(){
                 console.log("lenta");
-                var newView = new LentaView;
-                this.showContent({ view : newView.render() });
+                //var newView = new LentaView;
+                this.showContent({ view : this.views.mainLenta.render() });
                 this._activateTab("lenta");
             },
 

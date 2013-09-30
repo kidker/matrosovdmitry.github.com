@@ -1,25 +1,62 @@
-﻿<div class="col-md-12 my-custom-wells" >
+﻿
+<div>
+    <ol class="breadcrumb">
+        <li><a href="#!/index">О ШРИ</a></li>
+        <li class="active">Лента</li>
+    </ol>
+</div>
+<div class="col-md-12 my-custom-wells" >
 <div class="well">
-    <h1>ЛЕНТА ШРИ В МОСКВЕ 2013</h1>
+    <h1>ЛЕНТА</h1>
 
 </div>
     <div data-spy="scroll" data-target="#navbar-main" data-offset="0" id="block-spy-scroll">
         <div class="well" id="about">
-            <h2>Лента</h2>
+            <h2>TW#SHRI & VK#Group</h2>
 
              <div class="twitter-twits">
                  <a class="twitter-timeline" href="https://twitter.com/shri" data-widget-id="384791232553041920">Твиты пользователя @shri</a>
-                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                 <script>
+                     //Пришлось впинать свой асинхронный загрузчик для twittera
 
+                     var head = document.getElementsByTagName("head")[0] || document.documentElement;
+                     var script = document.createElement("script");
+
+                     script.src = "//platform.twitter.com/widgets.js";
+
+                     // Handle Script loading
+                     var done = false;
+
+                     // Attach handlers for all browsers
+                     script.onload = script.onreadystatechange = function() {
+                         if ( !done && (!this.readyState ||
+                                 this.readyState === "loaded" || this.readyState === "complete") ) {
+                             done = true;
+                             //jQuery.handleSuccess( script, xhr, status, data );
+                             //jQuery.handleComplete( script, xhr, status, data );
+
+                             // Handle memory leak in IE
+                             script.onload = script.onreadystatechange = null;
+                             if ( head && script.parentNode ) {
+                                 head.removeChild( script );
+                             }
+                         }
+                     };
+
+                     // Use insertBefore instead of appendChild  to circumvent an IE6 bug.
+                     // This arises when a base node is used (#2709 and #4378).
+                     head.insertBefore( script, head.firstChild );
+                 </script>
+                 <!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
              </div>
             <div class="vk-group">
                 <script type="text/javascript" src="//vk.com/js/api/openapi.js?101"></script>
-
                 <!-- VK Widget -->
                 <div id="vk_groups"></div>
                 <script type="text/javascript">
                     VK.Widgets.Group("vk_groups", {mode: 0, width: "520", height: "600", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 11283947);
                 </script>
+
             </div>
 
         </div>
@@ -31,3 +68,4 @@
         <div style="margin-top:100px;"></div>
     </div>
 </div>
+
