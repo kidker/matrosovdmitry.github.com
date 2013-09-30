@@ -1,0 +1,19 @@
+<div>
+    <a href="#!/lection/<%= id %>" type="button" class="btn btn-link"><%= name %></a>
+    <%
+    var str = author;
+    str = str.substr(1, str.length);
+    %>
+    <div style="margin-left: 15px;">
+        <span class="username__first-letter "><%= author.substr(0, 1) %></span><%= str %>
+    </div>
+
+</div>
+
+<div class="lection-item__edit">
+    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+    <a data-toggle="modal" href="#modalEditUser" class="btn btn-primary edit_user">Edit</a>
+    <!-- Indicates a dangerous or potentially negative action -->
+    <button type="button" class="btn btn-danger delete_user" >Delete</button>
+
+</div>

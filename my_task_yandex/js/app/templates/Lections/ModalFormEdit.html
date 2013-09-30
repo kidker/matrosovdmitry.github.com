@@ -1,0 +1,48 @@
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Edit User</h4>
+        </div>
+        <div class="modal-body">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label for="Name" class="col-lg-2 control-label">Name</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" value="<%= name %>" id="Name" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Author" class="col-lg-2 control-label">Author</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" value="<%= author %>"  id="Author" placeholder="Sername">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="AuthorImg" class="col-lg-2 control-label">Author-IMG-SRC</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" value="<%= author_img %>"  id="AuthorImg" placeholder="Age">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="link_pres" class="col-lg-2 control-label">Link to Presentation</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" value="<%= link_pres %>"  id="link_pres" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="link_video" class="col-lg-2 control-label">Link to VideoYandex</label>
+                    <div class="col-lg-10">
+                        <input type="text" class="form-control" value="<%= link_video %>" id="link_video" placeholder="Name">
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="save_user">Save changes</button>
+        </div>
+    </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->

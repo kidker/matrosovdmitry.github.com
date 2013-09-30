@@ -3,7 +3,7 @@ define([
     "text!templates/mainTpls/Index.html"//Template
 
 ],
-    function ($, Backbone, jquery_scrollTo, bootstrap, namespace, template) {
+    function ($, Backbone, namespace, jquery_scrollTo, bootstrap,  template) {
         var IndexView = Backbone.View.extend({
 
             tagName : "div",

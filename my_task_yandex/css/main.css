@@ -200,3 +200,32 @@ code {
     margin-top: 50px;
 }
 
+.user-item{
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    width: 100%;
+    margin: 20px 0;
+    text-align: left;
+
+}
+.lection-item__edit{
+    width: 140px;
+    margin-top: 5px;
+    height: 36px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.lection-video{
+    width: 100%;
+    text-align: center;
+    display: inline-block;vertical-align: top;
+
+}
+.slide-show{
+    width: 100%;
+    text-align: center;
+}
+

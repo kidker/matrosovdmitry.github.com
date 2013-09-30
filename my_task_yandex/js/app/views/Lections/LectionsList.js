@@ -1,8 +1,8 @@
-define(["jquery", "backbone", "views/Users/UserItem"],
+define(["jquery", "backbone", "views/Lections/LectionItem"],
     function ($, Backbone, UserItem) {
         var UsersList = Backbone.View.extend({
 
-            id: "my_users",
+            id: "my_lection",
             //className : "user-item",
             tagName : "ul",
             loading: false,

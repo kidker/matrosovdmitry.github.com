@@ -117,7 +117,7 @@ define([
             lection : function(id){
                 console.log("lection");
                 var newView = new LectionView;
-                this.showContent({ view : newView.render() });
+                this.showContent({ view : newView.render({user_id : id}) });
             },
             lenta : function(){
                 console.log("lenta");
