@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380571819038" ignored="false" />
     <file path="/index.html" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380544424711" ignored="false" />
-    <file path="/Index.html" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380549737869" ignored="false" />
+    <file path="/Index.html" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380617402403" ignored="false" />
     <file path="/Router.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380579492396" ignored="false" />
     <file path="/main.css" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380576919496" ignored="false" />
     <file path="/Index.js" changelist="aab38940-4333-4694-a792-dc22ed555618" time="1380567729547" ignored="false" />
@@ -55,8 +55,38 @@
       <file leaf-file-name="Index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="105" selection-start="18049" selection-end="18055" vertical-scroll-proportion="0.33250928">
-              <folding />
+            <state line="28" column="37" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.14268585">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#7;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#8;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#9;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#10;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#11;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#12;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#13;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#14;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#15;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#16;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#1;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#2;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#3;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#4;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#5;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#6;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#7;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#8;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#9;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#10;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#11;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#12;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#a#13;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#35538#35625#2" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#span#0;n#div#5;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,6 +153,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -509,7 +540,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -568,14 +598,14 @@
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -590,7 +620,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -598,7 +628,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19797225" sideWeight="0.84538376" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20010673" sideWeight="0.84538376" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -681,11 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/templates/LectionItem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="331" selection-end="331" vertical-scroll-proportion="-7.8461537">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
+        <state line="12" column="19" selection-start="331" selection-end="331" vertical-scroll-proportion="-7.8461537" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/views/pagesView/User.js">
@@ -695,9 +721,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/views/pagesView/Lection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="37" selection-start="660" selection-end="660" vertical-scroll-proportion="-16.32">
-          <folding />
-        </state>
+        <state line="24" column="37" selection-start="660" selection-end="660" vertical-scroll-proportion="-16.32" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/collections/LectionsCollection.js">
@@ -707,67 +731,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/templates/UserItem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="90" selection-start="241" selection-end="443" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="90" selection-start="241" selection-end="443" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Lection.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/templates/LectionProfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="19" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="32" column="19" selection-start="1750" selection-end="1750" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="89" selection-start="4257" selection-end="4257" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="76" column="89" selection-start="4257" selection-end="4257" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/config/DesktopInit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="10" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Lections.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="208" selection-end="371" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="10" selection-start="208" selection-end="371" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/views/pagesView/Lenta.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="28" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Lenta.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="40" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/routers/Router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="32" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.019473081">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="95" column="32" selection-start="2878" selection-end="2878" vertical-scroll-proportion="0.019473081" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
@@ -779,8 +783,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/templates/mainTpls/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="105" selection-start="18049" selection-end="18055" vertical-scroll-proportion="0.33250928">
-          <folding />
+        <state line="28" column="37" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.14268585">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#6;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#7;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#8;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#9;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#10;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#11;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#12;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#13;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#14;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#15;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#td#0;n#tr#16;n#tbody#0;n#table#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#1;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#2;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#3;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#4;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#5;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#6;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#7;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#8;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#9;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#10;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#11;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#12;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#13;n#div#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#35538#35625#2" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#span#0;n#div#5;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
