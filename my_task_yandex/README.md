@@ -7,7 +7,7 @@
 
 Решение
 
-http://matrosovdmitry.github.io/my_task_yandex/ - страница с решением
+http://matrosovdmitry.github.io/my_task_yandex/
 
 Свою реализацию данной задачи я написал на Backbone в связке c Require, Underscore, localstorage.js, jQuery, Bootstrap 
 
